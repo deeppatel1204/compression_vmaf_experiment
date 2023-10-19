@@ -32,7 +32,6 @@ async function start(){
             await writedatacsv(postInfo);
             await removeFilesFromDirectory(postInfo.downloadDirectory);
             await removeFilesFromDirectory(postInfo.convertedDirectory);
-            break;
         }
     }
     catch(err){
